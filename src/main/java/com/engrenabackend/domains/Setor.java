@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class Setor {
 
     @Id
-    @GeneratedValue(strategy = GenerarionType.SEQUENCE, generator = "seq_setor")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_setor")
     private Long id;
 
     @NotBlank
