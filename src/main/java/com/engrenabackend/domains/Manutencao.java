@@ -26,7 +26,7 @@ import java.time.LocalDate;
 public class Manutencao {
 
     @Id
-    @GeneratedValue(strategy = GenerarionType.SEQUENCE, generator = "seq_manutencao")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_manutencao")
     private Long id;
 
     @NotBlank
