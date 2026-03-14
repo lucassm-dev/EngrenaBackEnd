@@ -36,16 +36,16 @@ public class OrdemServico {
 
     @NotNull
     @JsonFormat(pattern = "dd/MM/yyyy")
-    @Column(name = "data", nullable = false)
+    @Column(name = "data_abertura", nullable = false)
     private LocalDate dataAbertura;
 
     @NotNull
     @JsonFormat(pattern = "dd/MM/yyyy")
-    @Column(name = "data", nullable = false)
+    @Column(name = "data_inicio", nullable = false)
     private LocalDate dataInicio;
 
     @NotNull
     @JsonFormat(pattern = "dd/MM/yyyy")
-    @Column(name = "data", nullable = false)
+    @Column(name = "data_conclusao", nullable = false)
     private LocalDate dataConclusao;
 }
