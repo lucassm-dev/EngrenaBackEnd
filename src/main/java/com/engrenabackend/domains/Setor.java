@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @SequenceGenerator(
         name = "tb_setor",
-        sequenceName = "tb_setor",
+        sequenceName = "seq_setor",
         allocationSize = 1
 )
 
