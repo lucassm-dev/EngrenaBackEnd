@@ -1,4 +1,4 @@
-package com.engrenabackend.domains;
+package com.domains;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
