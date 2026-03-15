@@ -1,4 +1,4 @@
-package com.engrenabackend.domains.enums;
+package com.domains.enums;
 
 import lombok.AllArgsConstructor;
 
