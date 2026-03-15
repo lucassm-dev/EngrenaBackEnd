@@ -1,4 +1,4 @@
-package com.engrenabackend.domains;
+package com.domains;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
