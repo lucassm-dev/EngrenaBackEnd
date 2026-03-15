@@ -89,7 +89,7 @@ Abaixo está o diagrama de classes que representa a estrutura do sistema.
 
 > *(Inserir imagem do diagrama abaixo)*
 
-![Diagrama de Classes](docs/diagrama-classe.png)
+![Diagrama de Classes]()
 
 ---
 
