@@ -87,10 +87,7 @@ Responsável pelos **endpoints REST da API**.
 
 Abaixo está o diagrama de classes que representa a estrutura do sistema.
 
-> *(Inserir imagem do diagrama abaixo)*
-
-![Diagrama de Classes]()
-
+![Diagrama de Classe](src/main/java/assets/diagrama-classe-engrena.jpg)
 ---
 
 # 🗄️ Modelo de Dados
