@@ -9,6 +9,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "tb_ordem_servico")
@@ -49,6 +51,6 @@ public class OrdemServico {
     @Column(name = "data_conclusao", nullable = false)
     private LocalDate dataConclusao;
 
-    @OneToOne(mappedBy = "ordemServico")
-    private Manutencao manutencao;
+    @OneToMany(mappedBy = "ordemServico")
+    private List<Manutencao> manutencoes = new ArrayList<>();
 }
